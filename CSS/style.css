@@ -1,0 +1,38 @@
+div {
+    
+    line-height: 20px; 
+    background-color:rgba(0, 0, 0, 0.09);
+    width: 200px;
+    border: 5px solidrgb(128, 137, 128)n;
+    padding: 40px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn{
+background-color:rgb(170, 151, 189);
+margin: auto;
+}
+
+.abc{
+    text-align: center;
+    }
+
+    table{
+        width: 800px;
+        border-collapse: collapse;
+        margin: auto;
+    }
+
+    th,td{
+        border:1px solid #ccc;
+        padding:5px;
+        text-align: center;
+    }
+    tr{
+        background-color: rgb(216, 216, 234);
+    }
+    .grey{
+        background-color: rgb(196, 240, 243);
+    }
+
