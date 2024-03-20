@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj": {}
+    "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj": {}
   },
   "projects": {
-    "C:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj": {
+    "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj",
+        "projectUniqueName": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj",
         "projectName": "RazorPages",
-        "projectPath": "C:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj",
+        "projectPath": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\RazorPages.csproj",
         "packagesPath": "C:\\Users\\atado\\.nuget\\packages\\",
-        "outputPath": "C:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\obj\\",
+        "outputPath": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atado\\AppData\\Roaming\\NuGet\\NuGet.Config"
