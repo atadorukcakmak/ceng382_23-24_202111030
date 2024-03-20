@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tg+5RyRPX7HddQ3nzte7DVZtgvtDVKZmlEykhFg/omc=",
+  "Hash": "gyIFEXJcKUyJEXAIexUf6Oh/633pmcS+3xFLIhMcc3o=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\wwwroot\\js\\button.js",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\wwwroot\\",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "js/button.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\button.js"
     },
     {
       "Identity": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\wwwroot\\js\\site.js",

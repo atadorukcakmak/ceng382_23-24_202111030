@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\wwwroot\\js\\button.js",
+      "PackagePath": "staticwebassets\\js\\button.js"
+    },
+    {
       "Id": "c:\\CENG382\\ceng382_23-24_202111030\\RazorPages\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
