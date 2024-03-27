@@ -3,8 +3,7 @@
 @{
 }
 
-<a class="nav-link text-dark" asp-area="" asp-page="/button">button</a>
-
+    
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -22,7 +21,7 @@
     </svg>
 
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+      <button  class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme"
               type="button"
               aria-expanded="false"
@@ -58,7 +57,24 @@
 
     
 <main class="form-signin w-100 m-auto">
-  <form>
+
+
+ myidshow kısmını sil myidshowla toplama sonucunu ekrana getir yeşil kutuyla. calculatesum yaz
+
+ <form>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1"><br><br>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2"><br><br>
+  </form>
+  
+  <button onclick="ShowHideFunction()" onclick="calculateSum()">Calculate Sum</button>
+  <div>a</div>
+  
+
+  <button onclick="HideShowFunction()" type="submit" style = "width:20px;" class="btn btn-primary w-100 py-2">Hide Form</button>
+
+  <form id="myDIV">
     <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
@@ -80,4 +96,6 @@
     <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
     <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
   </form>
+
+  <script src="~/js/button.js"></script>
 </main>
