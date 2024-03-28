@@ -1,15 +1,14 @@
 ﻿@page
 @model MyApp.Namespace.LoginPageModel
 @{
-} 
-
-<a class="nav-link text-dark" asp-area="" asp-page="/button">butAAAAAton</a>
-
-<button onclick="myFunction()">Click Me</button>
-
-@* <div id="myDIV">
-  This is my DIV element.
-</div> *@
+}<style>
+    .result {
+        width: 100px;
+        height: 20px;
+        background-color: rgb(169, 214, 107);
+        display: none;
+    }
+    </style>
 
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
@@ -64,8 +63,24 @@
 
     
 <main class="form-signin w-100 m-auto">
-  <div id="myDIV"></div>
+
   <form>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1"><br><br>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2"><br><br>
+  </form>
+
+  <button type="submit" onclick="toggleBox()" >Calculate Sum</button>
+  <br> <br>
+  <div class="result" id="result"></div>
+ 
+  <br><br>
+
+<button onclick="HideShowFunction()" type="submit" class="btn btn-primary w-100 py-2">Hide Form</button>
+  <form id="myDIV">
+    
+
     <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
@@ -90,7 +105,7 @@
   </div>
 
 
-<script src="~/js/button.js" asp-append-version="true"></script>
+<script src="~/js/button.js" ></script>
 
 </main>
 

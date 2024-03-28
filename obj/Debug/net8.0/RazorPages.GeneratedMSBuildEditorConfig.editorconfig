@@ -9,43 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorPages
 build_property.RootNamespace = RazorPages
-build_property.ProjectDir = C:\Users\User\OneDrive\Desktop\Web\Ceng382_23_24_202111066\RazorPages\
+build_property.ProjectDir = c:\CENG382\ceng382_23-24_202111030\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\OneDrive\Desktop\Web\Ceng382_23_24_202111066\RazorPages
+build_property.MSBuildProjectDirectory = c:\CENG382\ceng382_23-24_202111030
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/Error.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/Index.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/LoginPage.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/LoginPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5QYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/Privacy.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/_ViewImports.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/_ViewStart.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Web/Ceng382_23_24_202111066/RazorPages/Pages/Shared/_Layout.cshtml]
+[c:/CENG382/ceng382_23-24_202111030/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fawojrboro
