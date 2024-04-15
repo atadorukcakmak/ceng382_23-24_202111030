@@ -1,0 +1,15 @@
+C:\CENG382\ceng382_23-24_202111030\bin\Debug\net8.0\Ceng382_23-24_202111030.exe
+C:\CENG382\ceng382_23-24_202111030\bin\Debug\net8.0\Ceng382_23-24_202111030.deps.json
+C:\CENG382\ceng382_23-24_202111030\bin\Debug\net8.0\Ceng382_23-24_202111030.runtimeconfig.json
+C:\CENG382\ceng382_23-24_202111030\bin\Debug\net8.0\Ceng382_23-24_202111030.dll
+C:\CENG382\ceng382_23-24_202111030\bin\Debug\net8.0\Ceng382_23-24_202111030.pdb
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.GeneratedMSBuildEditorConfig.editorconfig
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.AssemblyInfoInputs.cache
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.AssemblyInfo.cs
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.csproj.CoreCompileInputs.cache
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.sourcelink.json
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.dll
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\refint\Ceng382_23-24_202111030.dll
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.pdb
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\Ceng382_23-24_202111030.genruntimeconfig.cache
+C:\CENG382\ceng382_23-24_202111030\obj\Debug\net8.0\ref\Ceng382_23-24_202111030.dll
