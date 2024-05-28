@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CENG382\\Ceng382_23_24_202111066.csproj",
-      "projectName": "Ceng382_23_24_202111066",
-      "projectPath": "C:\\CENG382\\Ceng382_23_24_202111066.csproj",
+      "projectUniqueName": "C:\\CENG382\\Ceng382_23_24_202111030.csproj",
+      "projectName": "Ceng382_23_24_202111030",
+      "projectPath": "C:\\CENG382\\Ceng382_23_24_202111030.csproj",
       "packagesPath": "C:\\Users\\atado\\.nuget\\packages\\",
       "outputPath": "C:\\CENG382\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\atado\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\atado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

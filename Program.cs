@@ -79,6 +79,11 @@ public class Program
 
 
         ReservationService .PrintReservations();
-        
+        DateTime firstTime = new DateTime(2024, 5, 28, 13, 31, 39, 8540); 
+        DateTime lastTime = new DateTime(2024, 5, 28, 13, 31, 39, 9306);   
+
+
+        LogService.DisplayLogs(firstTime, lastTime);
+        LogService.DisplayLogsByName("Efe");
     }
 }
