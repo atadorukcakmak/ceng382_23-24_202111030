@@ -1,0 +1,110 @@
+@page
+@model loginDemo.Pages.MyReservationsModel
+@{
+    ViewData["Title"] = "My Reservations";
+}
+
+<style>
+    
+   body {
+        background-image: url('/photos/background3.jpg');
+        background-size: cover;
+        color: white; 
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        color: rgb(255, 255, 255); 
+    }
+
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .table th {
+        background-color: #000000;
+        text-align: left;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.2em;
+        color: #666;
+    }
+</style>
+
+<h1>My Reservations</h1>
+
+@if (Model.Reservations != null && Model.Reservations.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Room Name</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reservation in Model.Reservations)
+            {
+                <tr>
+                    <td>@reservation.Room.Name</td>
+                    <td>@reservation.StartTime</td>
+                    <td>@reservation.EndTime</td>
+                    <td>@(reservation.IsCancelled ? "Cancelled" : "Booked")</td>
+                    <td>
+                        @if (!reservation.IsCancelled)
+                        {
+                            <form method="post" asp-page-handler="Cancel" asp-route-id="@reservation.Id">
+                                <button type="submit" class="btn btn-danger">Cancel</button>
+                            </form>
+                            <form method="get" action="http://localhost:5112/MakePayment">
+                                <button type="submit" class="btn btn-success">Make Payment</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No reservations found.</p>
+}

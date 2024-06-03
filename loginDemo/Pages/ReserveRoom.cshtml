@@ -1,0 +1,30 @@
+@page
+@model loginDemo.Pages.ReserveRoomModel
+@{
+    ViewData["Title"] = "Reserve a Room";
+}
+
+<h1>Reserve a Room</h1>
+
+<form method="post">
+    <div>
+        <label for="RoomId">Room</label>
+        <select id="RoomId" name="RoomId" asp-items="Model.Rooms">
+            <option value="">Select a room</option>
+        </select>
+    </div>
+    <div>
+        <label for="StartTime">Start Time</label>
+        <input type="datetime-local" id="StartTime" name="StartTime" required />
+    </div>
+    <div>
+        <label for="EndTime">End Time</label>
+        <input type="datetime-local" id="EndTime" name="EndTime" required />
+    </div>
+    <button type="submit">Reserve</button>
+</form>
+
+@if (Model.ErrorMessage != null)
+{
+    <p style="color:red">@Model.ErrorMessage</p>
+}

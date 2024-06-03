@@ -1,0 +1,76 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/photos/background1.jpg');
+            background-size: cover;
+            
+        }
+
+        .container3 {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .custom-welcome {
+            color: #007bff;
+        }
+
+        .custom-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .custom-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container3">
+        <div class="text-center">
+            <h1 class="display-4 custom-welcome">
+                Welcome to the ABC Hotels Reservation System
+            </h1>
+            <p>
+                <a class="custom-link" href="http://localhost:5112/Identity/Account/Register">Register</a>
+            </p>
+            <p>
+                <a class="custom-link" href="http://localhost:5112/Identity/Account/Login">Login</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
